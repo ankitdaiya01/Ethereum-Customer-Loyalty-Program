@@ -1,0 +1,86 @@
+/* login.css */
+
+/* Center the login form */
+.login-form {
+    width: 340px;
+    margin: 100px auto;
+}
+
+/* Style for the login form */
+.login-form form {
+    background: #f7f7f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+
+/* Title style */
+.login-form h2 {
+    margin: 0 0 15px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Input and button styles */
+.form-control,
+.btn {
+    min-height: 38px;
+    border-radius: 2px;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Button style */
+.btn {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #337ab7;
+    color: white;
+    cursor: pointer;
+}
+
+/* Primary text style */
+.text-primary {
+    color: #337ab7;
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+/* Additional margin for spacing */
+.c-list {
+    margin: 50px auto;
+}
+
+.large-list {
+    font-size: 18px;
+    padding: 15px;
+}
+
+/* Position suggestions */
+div.ReactTags__suggestions {
+    position: absolute;
+    z-index: 1;
+    background: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+/* Style for each suggestion */
+div.ReactTags__suggestions li {
+    list-style-type: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+}
+
+div.ReactTags__suggestions li:hover {
+    background-color: #f5f5f5;
+}
+
+/* Active suggestion style */
+div.ReactTags__suggestions li.ReactTags__activeSuggestion {
+    background: #337ab7;
+    color: white;
+}
